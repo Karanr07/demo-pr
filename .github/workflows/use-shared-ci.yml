@@ -1,0 +1,6 @@
+name: use-shared-ci
+on:
+    push
+jobs:
+    run-shared-ci:
+        uses: Karanr07/PractiseCicd/.github/workflows/shared-ci.yml@main
